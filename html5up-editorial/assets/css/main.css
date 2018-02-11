@@ -22,6 +22,12 @@
 		font-weight: bold;
 	}
 
+	@font-face {
+		font-family: Aileron;
+		src: url(Aileron-Regular.ttf);
+		font-weight: lighter;
+	}
+
 	.firstcharacter {
 	  color: #eb4b37;
 	  float: left;
@@ -47,7 +53,7 @@
 	}
 
 	audio {
-		width: 100%;
+		width: 80%;
 		background-color: #f3e2c0;
 	}
 
@@ -2210,6 +2216,8 @@
 	}
 
 	h5 {
+		font-family: Aileron;
+		font-weight: lighter;
 		font-size: 0.9em;
 	}
 
@@ -2259,10 +2267,16 @@
 	}
 
 	blockquote {
-		border-left: solid 3px rgba(210, 215, 217, 0.75);
-		font-style: italic;
+		border-left: solid 3px #00a9a9;
 		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
+		padding: 0.5em 4em 0.5em 4em;
+		font-style: italic;
+		font-size: 1.4em;
+	}
+
+	blockquote h4 {
+		font-style: normal;
+
 	}
 
 	code {
@@ -3363,7 +3377,7 @@
 		flex-shrink: 1;
 		margin: 0 0 6em 6em;
 		position: relative;
-		width: calc(33.33333% - 6em);
+		width: calc(50% - 6em);
 	}
 
 	.posts article:before {
