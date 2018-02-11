@@ -2171,7 +2171,6 @@
 
 	h1 {
 		font-size: 4em;
-		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
 
@@ -2579,11 +2578,20 @@
 		display: block;
 	}
 
+	.image video {
+		border-radius: 0.375em;
+		display: block;
+	}
+
 	.image.left, .image.right {
 		max-width: 40%;
 	}
 
 	.image.left img, .image.right img {
+		width: 100%;
+	}
+
+	.image.left video, .image.right video {
 		width: 100%;
 	}
 
@@ -2609,6 +2617,10 @@
 		width: 100%;
 	}
 
+	.image.fit video {
+		width: 100%;
+	}
+
 	.image.main {
 		display: block;
 		margin: 0 0 3em 0;
@@ -2616,6 +2628,10 @@
 	}
 
 	.image.main img {
+		width: 100%;
+	}
+
+	.image.main video {
 		width: 100%;
 	}
 
@@ -3105,7 +3121,7 @@
 	.mini-posts article .image img {
 		margin-left: auto;
 		margin-right: auto;
-		width: 85%;
+		width: 77%;
 	}
 
 	.mini-posts article:first-child {
@@ -3509,6 +3525,10 @@
 		width: 100%;
 	}
 
+	#main h1 {
+		margin-bottom: 20px;
+	}
+
 	#main > .inner {
 		padding: 0 6em 0.1em 6em ;
 		margin: 0 auto;
@@ -3531,7 +3551,7 @@
 		}
 
 		#main > .inner > section {
-			padding: 5em 0 3em 0 ;
+			padding: 1em 0 1em 0 ;
 		}
 
 	}
@@ -3588,7 +3608,7 @@
 }
 
 #sidebar > .inner {
-	padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
+	padding: 0.22222em 2.22222em 2.44444em 2.22222em ;
 	position: relative;
 	width: 26em;
 }
@@ -3671,7 +3691,7 @@
 	}
 
 	#sidebar > .inner {
-		padding: 1.66667em 1.66667em 1.33333em 1.66667em ;
+		padding: 1.66667em 1.66667em 0em 1.66667em ;
 		width: 24em;
 	}
 
@@ -3785,6 +3805,11 @@
 	border-bottom: solid 5px #f56a6a;
 	padding: 6em 0 1em 0;
 	position: relative;
+}
+
+#bannerImage {
+	width: 100%;
+	margin-bottom: 0px;
 }
 
 #header > * {
@@ -3957,7 +3982,7 @@
 
 #menu h2 {
 	margin-bottom: 20px;
-	margin-top: 0px;
+	margin-top: -40px;
 }
 
 #menu ul {
