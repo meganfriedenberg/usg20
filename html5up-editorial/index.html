@@ -45,6 +45,14 @@ if (this.hash !== "") {
 } // End if
 });
 });
+
+	$(document).ready(function() {
+  $('#show-hidden-menu').click(function() {
+    $('.hidden-menu').slideToggle("show");
+    // Alternative animation for example
+    // slideToggle("fast");
+  });
+});
 </script>
 <body>
 
@@ -69,11 +77,11 @@ if (this.hash !== "") {
 				</header>
 
 				<!-- Content -->
-					<br><img id="bannerImage" src="images/header.png">
+				<br><img id="bannerImage" src="images/header.png">
 
 				<section style="margin-top: 0px;" id="pres">
 					<header class="main">
-						<h1>Meet the Presidential Tickets</h1>
+						<h1>Meet the presidential tickets</h1>
 					</header>
 
 
@@ -86,7 +94,7 @@ if (this.hash !== "") {
 							<h5>Lee is a sophomore with a major in Political Science and a minor in Social Entrepreneurship, and Ackerman is a sophomore majoring in Business Administration.</h5>
 
 							<hr>
-													
+
 
 							<h5>If elected, Lee says their focus is to listen and learn.</h5>
 							<audio controls>
@@ -98,36 +106,36 @@ if (this.hash !== "") {
 									<source src="audio/blake.wav" type="audio/wav">
 										Your browser does not support the audio element.
 									</audio><hr>
-							
-							<strong>Safety & Wellness</strong><ul>
-							<li>Diversity and sexual assault training for faculty and staff</li>
-							<li>Speed bumps on Greek row</li>
-							<li>Formalized system to ensure safety at Greek life events</li>
-							<li>Plan B vending machines at Engemann</li>
-							<li>Rest and meditation spaces on campus </li>
-						</ul>
+
+									<strong>Safety & Wellness</strong><ul>
+									<li>Diversity and sexual assault training for faculty and staff</li>
+									<li>Speed bumps on Greek row</li>
+									<li>Formalized system to ensure safety at Greek life events</li>
+									<li>Plan B vending machines at Engemann</li>
+									<li>Rest and meditation spaces on campus </li>
+								</ul>
 
 
-						<strong>Enhanced Student Experience</strong>
-						<ul><li>Increased parking options for commuter students </li>
-							<li>Creation of a Transfer Resource Center</li>
-							<li>Expand cultural resource centers </li>
-							<li>Increased collaboration between USG and other student organizations</li>
-							<li>Weekly luncheons with different student leaders and campus groups</li>
-							<li>Diversity hiring metrics in USG</li>
-							<li>On-campus economic crisis response team </li>
-							<li>Bereavement excuse</li></ul>
+								<strong>Enhanced Student Experience</strong>
+								<ul><li>Increased parking options for commuter students </li>
+									<li>Creation of a Transfer Resource Center</li>
+									<li>Expand cultural resource centers </li>
+									<li>Increased collaboration between USG and other student organizations</li>
+									<li>Weekly luncheons with different student leaders and campus groups</li>
+									<li>Diversity hiring metrics in USG</li>
+									<li>On-campus economic crisis response team </li>
+									<li>Bereavement excuse</li></ul>
 
 
-							<strong>Campus Climate</strong><ul><li>Monitoring First Year Student Development Course pilot program</li>
-							<li>Greek-University relationship statement</li> 
-							<li>Increase access to composting and recycling bins</li> 
-							<li>Effective dining hall food disposal system</li>
-							<li>Increase tuition transparency</li></ul>
+									<strong>Campus Climate</strong><ul><li>Monitoring First Year Student Development Course pilot program</li>
+									<li>Greek-University relationship statement</li> 
+									<li>Increase access to composting and recycling bins</li> 
+									<li>Effective dining hall food disposal system</li>
+									<li>Increase tuition transparency</li></ul>
 
 
-													<blockquote>There's so much to be learned when you listen to someone...and see how we can incorporate them into the conversation.<br><br><h4>Debbie Lee</h4></blockquote>
-							
+									<blockquote>There's so much to be learned when you listen to someone...and see how we can incorporate them into the conversation.<br><br><h4>Debbie Lee</h4></blockquote>
+
 								</div>
 								<div class="6u$ 12u$(small)">
 									<span class="image main"><video autoplay loop src="images/mai-brianna.mp4" alt="" /></span>
@@ -137,171 +145,418 @@ if (this.hash !== "") {
 									<h5>Mizuno is a junior majoring in International Relations and Philosophy, Politics, and Law, and Bozek is a junior majoring in Business Administration and minoring in Music Industry.</h5>
 
 									<hr>
-						<h5>Mizuno says working in USG has always been about advocating for students.</h5>
-						<audio controls>
-							<source src="audio/mai.wav" type="audio/wav">
-								Your browser does not support the audio element.
-							</audio><br><br>
-							<h5>Bozek's aims on working to improve the school and address student concerns.</h5>
-							<audio controls>
-								<source src="audio/brianna.wav" type="audio/wav">
-									Your browser does not support the audio element.
-								</audio> <hr>
-									
-									<strong>Residential & Hospitality</strong><ul>
-									<li>Dining and discretionary dollars in USC Village</li>
-									<li>Extend campus housing availability after finals</li>
-									<li>Program events and outreach initiatives in USC Village</li>
-								</ul>
+									<h5>Mizuno says working in USG has always been about advocating for students.</h5>
+									<audio controls>
+										<source src="audio/mai.wav" type="audio/wav">
+											Your browser does not support the audio element.
+										</audio><br><br>
+										<h5>Bozek's aims on working to improve the school and address student concerns.</h5>
+										<audio controls>
+											<source src="audio/brianna.wav" type="audio/wav">
+												Your browser does not support the audio element.
+											</audio> <hr>
+
+											<strong>Residential & Hospitality</strong><ul>
+											<li>Dining and discretionary dollars in USC Village</li>
+											<li>Extend campus housing availability after finals</li>
+											<li>Program events and outreach initiatives in USC Village</li>
+										</ul>
 
 
-								<strong>Health & Wellness</strong>
-								<ul><li>Increased parking options for commuter students </li>
-									<li>Free menstrual products in campus restrooms</li>
-									<li>Increase transparency of student health fee</li>
-									<li>Increase accessibility to counseling services
+										<strong>Health & Wellness</strong>
+										<ul><li>Increased parking options for commuter students </li>
+											<li>Free menstrual products in campus restrooms</li>
+											<li>Increase transparency of student health fee</li>
+											<li>Increase accessibility to counseling services
+											</li>
+											<li>Standardize wait times for general health appointments</li>
+											<li>Food waste awareness campaign </li>
+										</ul>
+
+
+										<strong>Campus Safety & Other</strong>
+										<ul><li>Facilitate active shooter training
+										</li>
+										<li>Promote use of Title IX Office’s new resources</li> 
+										<li>More recycling bins on campus
+										</li> 
+										<li>Work with Greek Life regarding new eligibility requirements
+										</li>
+									</ul>
+
+									<strong>Resource & Cultural Centers
+									</strong>
+									<ul><li>Separate Veterans resource center with full-time staff
 									</li>
-									<li>Standardize wait times for general health appointments</li>
-									<li>Food waste awareness campaign </li>
+									<li>Transfer student resource center
+									</li> 
+									<li>Improve transition period for international students
+									</li> 
+									<li>LGBTQ+ center with more physical space
+									</li>
+									<li>Advocate for leadership stipend
+
+									</li>
 								</ul>
 
+								<strong>USG Transparency
+								</strong>
+								<ul><li>Public office hours, town halls and roundtable talks
 
-								<strong>Campus Safety & Other</strong>
-								<ul><li>Facilitate active shooter training
+
 								</li>
-								<li>Promote use of Title IX Office’s new resources</li> 
-								<li>More recycling bins on campus
+								<li>Transfer student resource center
 								</li> 
-								<li>Work with Greek Life regarding new eligibility requirements
+								<li>Require USG Senators to attend meetings of non-USG student organizations
+								</li> 
+								<li>Record Senate agenda and meeting minutes for public viewing
+
 								</li>
+
 							</ul>
 
-							<strong>Resource & Cultural Centers
-							</strong>
-							<ul><li>Separate Veterans resource center with full-time staff
-							</li>
-							<li>Transfer student resource center
-							</li> 
-							<li>Improve transition period for international students
-							</li> 
-							<li>LGBTQ+ center with more physical space
-							</li>
-							<li>Advocate for leadership stipend
-
-							</li>
-						</ul>
-
-							<strong>USG Transparency
-							</strong>
-							<ul><li>Public office hours, town halls and roundtable talks
-
-
-							</li>
-							<li>Transfer student resource center
-							</li> 
-							<li>Require USG Senators to attend meetings of non-USG student organizations
-							</li> 
-							<li>Record Senate agenda and meeting minutes for public viewing
-
-							</li>
-						
-						</ul>
-						
-							</div>
 						</div>
+					</div>
 
-					</section>
+				</section>
 
-					<section id="sen">
-									<header class="major">
-										<h2>Meet the Senators</h2>
-									</header>
-									<div class="posts">
-									<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
+				<section id="sen">
+					<header class="major">
+						<h2>Meet the Candidates for Senate</h2>
+					</header>
+
+					
+				<table class="alt" style="width:100%">
+  <tr>
+    <td>		<!-- Slideshow container -->
+				<div class="slideshow-container" id="div1">
+
+					<!-- Full-width images with number and caption text -->
+			
+					<div class="mySlides">
+						<img src="images/matt.png" style="width:100%">
+						<div class="text">"Diviya and I want to create lasting change that will improve the USC experience long after we leave.”
+</div>
+					</div>
+
+					<div class="mySlides">
+						<img src="images/diviya.png" style="width:100%">
+						<div class="text">"We feel that USG will be the perfect arena to create meaningful initiatives that benefit our peers."
+</div>
+					</div>				
+
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusDivs(this,-1)">&#10094;</a>
+		<a class="next" onclick="plusDivs(this,1)">&#10095;</a>
+	</div>
+	<br>
 
 
-					<section id="endorse">
+    	<strong>Matt Crane and Diviya Gupta</strong>
+    	<ul><li>
+    	Staff emergency medical technicians from USC on the row</li>
+		 <li>Comprehensive date rape drug testing at Engemann 
+</li>
+		 <li>Expand on-campus resources and physical spaces for marginalized groups</li>
+		 <li>Extend gym and dining hall hours
+</li>
+		 <li>Integrate active shooter training and basic life support skills into student programming events</li>
+		 <li>Increased RA training on earthquake/fire safety
+</li>
+		 <li>Provide Metro TAP cards to students and increased Metro guidance </li>
+		 <li>Classes on emergency preparedness and lifestyle education</li>
+		 <li>Increase amnesty policies to encourage student medical transportation when necessary</li>
+		 <li>Remove fee for flu shots
+</li>
+		 </ul>
+		 </td>
+    <td>	<!-- Slideshow container -->
+				<div class="slideshow-container" id="div2">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/michaela.png" style="width:100%">
+						<div class="text">"I firmly believe that we all have an obligation and responsibility to one another to do what we can, when we can, to fix what feels broken."</div>
+					</div>
+
+					<div class="mySlides">
+						<img src="images/amy.png" style="width:100%">
+						<div class="text">"I feel like I’d be able to be an advocate for students who are transfer students."</div>
+					</div>
+
+					<div class="mySlides">
+						<img src="images/Gabriel.png" style="width:100%">
+						<div class="text">"I wanted to have a larger role and make a larger difference."</div>
+					</div>
+				
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusDivs(this,-1)">&#10094;</a>
+		<a class="next" onclick="plusDivs(this,1)">&#10095;</a>
+	</div>
+	<br>
+
+	</div><strong>Michaela Murphy, Amy Chong and Gabriel Savage</strong>
+    	<ul><li>
+    	Discounted Metro passes for undergraduate students</li>
+		 <li>Create standard campus information database and USC phone app</li>
+		 <li>Expand on-campus resources and physical spaces for marginalized groups</li>
+		 <li>Prescription HIV-prevention pill available at Engemann</li>
+		 <li>Increase number of counselors at Engemann </li>
+		 <li>Increase transparency of student health fee</li>
+		 <li>Initiatives for transfer students </li>
+		 <li>Accessible gender neutral bathrooms</li>
+		 <li>Implement Kosher and Halal options</li>
+		 <li>Roll-over meal swipes and dining dollars</li>
+		 </ul>
+		 </td></td></tr>
+  <tr>
+    <td>	<!-- Slideshow container -->
+				<div class="slideshow-container" id="div3">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/manda.png" style="width:100%">
+						<div class="text">"I want to be a senator that makes a real change on campus for students and impacts USC in a permanent and positive way."</div>
+					</div>
+
+					<div class="mySlides">
+						<img src="images/jillian.png" style="width:100%">
+						<div class="text">" I am confident in my ability to represent a variety of voices in the upcoming senatorial term."</div>
+					</div>
+
+					<div class="mySlides">
+						<img src="images/Jacquelyne.png" style="width:100%">
+						<div class="text">"I hope to work on inclusion on campus in order to bring cultural communities together, and to improve healthcare and safety resources."</div>
+					</div>
+
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusDivs(this,-1)">&#10094;</a>
+		<a class="next" onclick="plusDivs(this,1)">&#10095;</a>
+	</div>
+	<br>
+
+	<strong>Manda Bwerevu, Jillian Halperin and Jacquelyne Tan</strong>
+    	<ul><li>
+    	Improve access to health resources
+</li>
+		 <li>Increase transparency of student health fee </li>
+		 <li>Increase number of STD/STI tests covered by USC insurance</li>
+		 <li>Encourage cross-cultural interactions and events</li>
+		 <li>Student mentorship program for transfer, international, spring admit students</li>
+		 <li>Non-exclusive relaxation spaces</li>
+		 <li>Increase awareness of campus emergency procedures</li>
+		 <li>Mandatory mid-semester course evaluations</li>
+		 <li>Grading deadline for faculty</li>
+		 <li>Address issues regarding spring admits’ GPAs</li>
+		 <li>Syllabus database</li>
+		 </ul>
+		 </td></td>
+
+    <td><div class="slideshow-container" id="div4">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/max.png" style="width:100%">
+						<div class="text">“I’m running because I want to make sure that we increase the resources that transfer students have on campus, as well as spring admits and commuter students.”
+</div>
+					</div></div><strong><br>Max Geschwind</strong>
+    	<ul><li>In-person and online town hall meetings to hear from students</li>
+<li>Increase support for student organizations on campus</li>
+
+
+<li>Provide resources to student organizations across political spectrum</li>
+
+
+<li>More resources to transfer and spring admit students</li>
+
+
+<li>Advocate for commuter students</li>
+
+
+<li>Bring back LA Live shuttle</li>
+
+
+<li>Create USC calendar phone app</li>
+
+
+<li>Dining hall take out program</li>
+
+
+<li>Dining dollars at USC Village</li>
+
+	
+		 </ul></td></tr>
+  <tr>
+    <td><div class="slideshow-container" id="div5">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/Shayan.png" style="width:100%">
+						<div class="text">"Students want a safe-haven, they want somewhere where they’re brought up to grow and really be the best person they can be, and just watching from the outside, I think there are a lot of different things that need to be done in order to advance student causes."</div>
+					</div></div><strong><br>Shayan Kohanteb</strong>
+    	<ul><li>Reverse GPA requirements for Greek life </li>
+
+
+<li>Remove limit on tailgates on Greek row</li>
+
+
+<li>Create venture capital group within Marshall to use university funds to support Trojan projects</li>
+
+
+<li>Lower tuition costs</li>
+
+
+<li>Increase scholarships for students</li>
+
+
+<li>Mandatory faculty active shooter training seminars</li>
+
+	
+		 </ul></td><
+    <td><div class="slideshow-container" id="div6">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/neal.png" style="width:100%">
+						<div class="text">"The reason why I’m running for Senate is because I really think I have both the experience and the ideas to really make ambitious yet practical change in student government."</div>
+					</div></div><strong><br>Neal Sivadas</strong>
+    	<ul><li>Expand student discounts for events on-campus and around LA</li>
+<li>Implement standard Uber/Lyft fare to airport </li>
+<li>First-year wellness seminar </li>
+<li>Peer advising programs</li>
+<li>Pay for laundry with USC card or card similar to print card</li>
+<li>Anonymous form for student input on USG and legislative proposals</li>
+
+		 </ul></td>
+  </tr>
+
+
+
+
+
+ 
+  <tr>
+    <td><div class="slideshow-container" id="div7">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/meagan.png" style="width:100%">
+						<div class="text">"I’m running for senate because I believe very strongly in the importance of having that sort of influence for a student, as a student."</div>
+					</div></div><strong><br>Meagan Lane</strong>
+    	<ul><li>
+    	Implement USG branch for diversity-based committees
+		</li>
+		 <li>Transparent discussion of campus issues</li>
+		 <li>Improving scholarship accessibility</li>
+		 <li>New spaces for student entertainment</li>
+		 <li>Dining dollars in USC Village</li>
+	
+		 </ul></td>
+    <td><div class="slideshow-container" id="div8">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/meagan.png" style="width:100%">
+						<div class="text">"I’m running for senate because I believe very strongly in the importance of having that sort of influence for a student, as a student."</div>
+					</div></div><strong><br>Meagan Lane</strong>
+    	<ul><li>
+    	Implement USG branch for diversity-based committees
+		</li>
+		 <li>Transparent discussion of campus issues</li>
+		 <li>Improving scholarship accessibility</li>
+		 <li>New spaces for student entertainment</li>
+		 <li>Dining dollars in USC Village</li>
+	
+		 </ul></td>
+  </tr>
+    <tr>
+    <td><div class="slideshow-container" id="div9">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/will.png" style="width:100%">
+						<div class="text">"I want to be Senator because in my high school experience, I was in student government all four years, I really loved it."</div>
+					</div></div><strong><br>Will Sherman</strong>
+    	<ul><li>Increase resources and overall experience for spring admit students</li>
+<li>Collect data on spring admit student experience </li>
+<li>Allow for students to audit a 4 unit class while taking up to 16 class units</li>
+
+	
+		 </ul></td>
+    <td><div class="slideshow-container" id="div10">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides">
+						<img src="images/cody.png" style="width:100%">
+						<div class="text">"It’s great to work with senators to draft legislation, to create the ideas, but I really want to be the one voting on it and deciding whether or not ideas that other senators share should apply to the entire student body."</div>
+					</div></div><strong><br>Cody Ela</strong>
+    	<ul><li>Kosher and Halal dining options </li>
+<li>Increase Kosher and Halal options at campus eateries</li>
+<li>Central snack cart for students to purchase food on-the-go</li>
+<li>Contraceptive vending machines with subsidized prices </li>
+
+	
+		 </ul></td>
+  </tr>
+</table>
+
+				</section>
+
+		
+<script type="text/javascript">
+
+
+var sliderObjects = [];
+createSliderObjects();
+
+
+function plusDivs(obj, n) {
+  var parentDiv = $(obj).parent();
+  var matchedDiv;
+  $.each(sliderObjects, function(i, item) {
+    if ($(parentDiv[0]).attr('id') == $(item).attr('id')) {
+      matchedDiv = item;
+      return false;
+    }
+  });
+  matchedDiv.slideIndex=matchedDiv.slideIndex+n;
+  showDivs(matchedDiv, matchedDiv.slideIndex);
+}
+
+function createSliderObjects() {
+  var sliderDivs = $('.slideshow-container');
+  $.each(sliderDivs, function(i, item) {
+    var obj = {};
+    obj.id = $(item).attr('id');
+    obj.divContent = item;
+    obj.slideIndex = 1;
+    obj.slideContents = $(item).find('.mySlides');
+    showDivs(obj, 1);
+    sliderObjects.push(obj);
+  });
+}
+
+function showDivs(divObject, n) {
+  var i;
+  if (n > divObject.slideContents.length) {
+    divObject.slideIndex = 1
+  }
+  if (n < 1) {
+    divObject.slideIndex = divObject.slideContents.length
+  }
+  for (i = 0; i < divObject.slideContents.length; i++) {
+    divObject.slideContents[i].style.display = "none";
+  }
+  divObject.slideContents[divObject.slideIndex - 1].style.display = "block";
+}
+
+
+</script>
+	
+
+
+
+	<section id="endorse">
 					<!-- <header class="main">
 						<h1>Endorsement</h1>
 					</header> -->
@@ -363,7 +618,7 @@ if (this.hash !== "") {
 
 					Monahan elaborated on her vision for how the first-year wellness course can create a safer, better-informed and more tolerant atmosphere on campus.	<br><br>
 
-													<blockquote>This first year course for all incoming freshman, spring admits, and transfer students will really create a culture of accountability, looking out for each other, and respect. And culture doesn’t happen in a vacuum. It’s going to be impacted by things that happen on campus.<br><br><h4>Morgan Monahan</h4></blockquote>
+					<blockquote>This first year course for all incoming freshman, spring admits, and transfer students will really create a culture of accountability, looking out for each other, and respect. And culture doesn’t happen in a vacuum. It’s going to be impacted by things that happen on campus.<br><br><h4>Morgan Monahan</h4></blockquote>
 
 
 
@@ -427,16 +682,16 @@ if (this.hash !== "") {
 							<li>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="images/yearThumb.png" alt="" /></a>
-										<p>Campaign Finance Loophole</p>
+										<a href="#" class="image"><img src="images/glass.png" alt="" /></a>
+										<p>An Uneasy End</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="images/fund.png" alt="" /></a>
-										<p>USG Stipends</p>
+										<a href="http://dailytrojan.com/2018/02/11/price-student-leadership-usc/" class="image"><img src="images/fund.png" alt="" /></a>
+										<p>the price of student leadership</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-										<p>Few run for office </p>
+										<a href="http://dailytrojan.com/2018/02/11/no-place-campus-politics-students-choose-not-run-usg-senate/" class="image"><img src="images/few.jpeg" alt="" /></a>
+										<p>No place for office </p>
 									</article>
 								</div>
 							</ul>
