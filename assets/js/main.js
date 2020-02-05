@@ -1,9 +1,3 @@
-/*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	skel.breakpoints({
@@ -104,7 +98,7 @@
 			// Toggle.
 				if (skel.vars.IEVersion > 9) {
 
-					$('<a href="#sidebar" class="toggle">Toggle</a>')
+					$('<a href="#sidebar" class="toggle"></a>')
 						.appendTo($sidebar)
 						.on('click', function(event) {
 
@@ -254,6 +248,34 @@
 						.trigger('resize.sidebar-lock');
 
 					});
+
+		// Hover to gif
+		$(document).ready(function()
+{
+    $("#pres1").hover(
+        function()
+        {
+            $(this).attr("src", "img/test-motion.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "img/test-static.gif");
+        }                         
+    );   
+
+      $("#pres2").hover(
+        function()
+        {
+            $(this).attr("src", "img/test-motion.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "img/test-static.gif");
+        }                         
+    );                
+});
+
+
 
 		// Menu.
 			var $menu = $('#menu'),
