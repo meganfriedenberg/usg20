@@ -1,16 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
-/*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	*/
-
-	/* Reset */
-
-	/* Fonts */
-
 	@font-face {
 		font-family: Aileron;
 		src: url(Aileron-Regular.ttf);
@@ -582,7 +572,7 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1000px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -2137,7 +2127,7 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1000px) {
 
 		body, input, select, textarea {
 			font-size: 10pt;
@@ -3685,7 +3675,7 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1000px) {
 
 		#main > .inner {
 			padding: 0 4em 0.1em 4em ;
@@ -3848,7 +3838,7 @@
 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1000px) {
 
 	#sidebar {
 		box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
