@@ -20,7 +20,7 @@
         $("a").on('click', function(event) {
 
             // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
+            if (this.hash !== "" && $(this.hash).offset()) {
                 // Prevent default anchor click behavior
                 event.preventDefault();
 
@@ -97,37 +97,56 @@
                             </ul>
                         </div>
                         <div class="6u$ 12u$(small)">
-                             <span class="image main"><img id="pres2" src="img/test-static.gif" /></span>
+                           <span class="image main"><img id="pres2" src="img/test-static.gif" /></span>
 
-                            <h3>Mai Mizuno and Brianna Bozek</h3>
+                           <h3>Mai Mizuno and Brianna Bozek</h3>
 
-                            <h5>Mizuno is a junior majoring in International Relations and Philosophy, Politics, and Law, and Bozek is a junior majoring in Business Administration and minoring in Music Industry.</h5>
+                           <h5>Mizuno is a junior majoring in International Relations and Philosophy, Politics, and Law, and Bozek is a junior majoring in Business Administration and minoring in Music Industry.</h5>
 
-                            <hr>
-                            <h5>Mizuno says working in USG has always been about advocating for students.</h5>
+                           <hr>
+                           <h5>Mizuno says working in USG has always been about advocating for students.</h5>
 
-                            <strong>Residential & Hospitality</strong>
-                            <ul>
-                                <li>Dining and discretionary dollars in USC Village</li>
-                                <li>Extend campus housing availability after finals</li>
-                                <li>Program events and outreach initiatives in USC Village</li>
-                            </ul>
+                           <strong>Residential & Hospitality</strong>
+                           <ul>
+                            <li>Dining and discretionary dollars in USC Village</li>
+                            <li>Extend campus housing availability after finals</li>
+                            <li>Program events and outreach initiatives in USC Village</li>
+                        </ul>
 
-                        </div>
                     </div>
+                </div>
 
-                </section>
+            </section>
 
-                <section id="sen">
-                    <header class="major">
-                        <h2>Meet the Candidates for Senate</h2>
-                    </header>
+            <section id="sen">
+                <header class="major">
+                    <h2>Meet the Candidates for Senate</h2>
+                </header>
 
-                </section>
+                <h4>Click to learn more!</h4>
 
-                <section id="endorse">
-                    <div class="story">
-                    <span class="image main"><video autoplay muted loop src="images/endorsement.mp4" alt="" /></span>
+                <div class="box alt">
+                    <div class="row gtr-50 gtr-uniform">
+                        
+                        <div class="col-4"><span class="image fit"><a href="senate.html#senate1"><img src="images/pic01.jpg" alt="" /></a></span></div>
+                        <div class="col-4"><span class="image fit"><a href="senate.html#senate2"></a><img src="images/pic01.jpg" alt="" /></span></div>
+                        <div class="col-4"><span class="image fit"><a href="senate.html#senate3"></a><img src="images/pic01.jpg" alt="" /></span></div>
+                        <!-- Break -->
+                        <div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+                        <!-- Break -->
+                        <div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="endorse">
+                <div class="story">
+                    <span class="image main"><img src="images/pic01.jpg"></span>
                     <p><span class="firstcharacter">S</span>tudent government leaders must be defined by their dynamism. On the one hand, they must act as administrators, curating and developing the larger institution to work toward various measures; on the other, they must remain activists — as grassroots and impassioned as those without an office or title, fighting equally as hard, cognizant of the same stakes. Above all, they must be able to work on behalf of the large and diverse student voice. They must seek to produce the change that is so often necessary, and yet so rarely achieved.
                         <br>
                         <br> Undergraduate Student Government presidential candidate Mai Mizuno and vice presidential candidate Brianna Bozek share a vision that prioritizes tangible, concrete action to improve student life, acknowledging the needs of the local community. Their 37 platform points comprise a litany of progressive measures including community, diversity, expansion of resources and, above all, an eye on the needs of largely forgotten student groups. After interviews, extensive research and analysis of the specifics of the impressive records of service of this year’s candidates, the Daily Trojan has decided to endorse Mizuno and Bozek to serve as next year’s USG president and vice president.
@@ -148,14 +167,14 @@
 
                     </p>
                 </div>
-                </section>
+            </section>
 
-                <section id="review">
-                    <div class="story">
+            <section id="review">
+                <div class="story">
                     <header class="main">
                     </header>
 
-                    <span class="image main"><img src="images/YearInReview.png" alt="Year In Review" /></span>
+                    <span class="image main"><img src="images/pic01.jpg" alt="Year In Review" /></span>
 
                     <span class="firstcharacterRed">A</span>fter a year, the terms of Undergraduate Student Government President Austin Dunn and Vice President Morgan Monahan are coming to an end. During their presidential campaign, the two advocated their vision to “Achieve More” as representatives of the 19,000 undergraduate students they serve. Some of the progress Dunn and Monahan have made, via resolutions in the Senate, include the creation of a fall break initiative, the implementation of free hygiene products in campus restrooms and a rideshare partnership between USC and Lyft.
                     <br>
@@ -192,28 +211,28 @@
                         <br>
                         <h4>Morgan Monahan</h4></blockquote>
 
-                    “This first year course for all incoming freshman, spring admits, and transfer students will really create a culture of accountability, looking out for each other, and respect,” Monahan said. “And culture doesn’t happen in a vacuum. It’s going to be impacted by things that happen on campus.”
-                    <br>
-                    <br> Dunn said the shifting norms on campus were his and Monahan’s favorite development during their administration. He referred to the fall break resolution as an example of how this progress is manifesting.
-                    <br>
-                    <br> “If we had to sum up what we are most proud of, in one word, it would be culture,” Dunn said. “Just because these things we’re listing have to do with that. Fall break focused on destigmatizing mental health and supporting our students in times of crisis in weeks eight to ten.”
-                    <br>
-                    <br> In the aftermath of Christina Yokoyama’s termination as the former director of the Norman Topping Student Aid Fund, many USG officials and students questioned the ability of students to influence decisions made by the USC administration. Dunn acknowledged these concerns, and explained he has tried to address them by meeting with administrators more often.
-                    <br>
-                    <br> “In my entire time as vice president [during the 2016-2017 term], I only saw [Vice President for Student Affairs] Ainsley Carry three times,” Dunn said. “I now see him weekly, usually even more than once a week. I couldn’t ask to be better supported by the provost. In that realm, that is definitely something that we have made great strides in but that’s not to say that everything we say to the provost, Dr. Carry, or [President C.L. Max] Nikias is immediate policy.”
-                    <br>
-                    <br> When asked what advice she would offer to the current USG candidates, Monahan emphasized personal wellness and trying to preserve oneself.
-                    <br>
-                    <br> “Wellness is an important aspect of this and making sure that you fill up your own cup before you fill up others,” Monahan said. “And just make sure you are reaching out to as many people as possible, but doing it in a responsible manner for yourself.”
-                    <br>
-                    <br> Dunn added that candidates ought to remember what prompted them to join student government, and to stay true to those motives.
-                    <br>
-                    <br> “I think you have to stay true to your purpose and your why,” Dunn said. “Every student who’s running or who gets involved in student government has a reason for having done so. And I think that one thing that campaigns and the dirtiness of elections and the stress of life can often take away from staying at your core.”
-                    <br>
-                    <br> Dunn concluded by reminding the next USG president to seek assistance from all members of USG, and to work on every issue as a team, regardless of who receives the spotlight.
-                    <br>
-                    <br> “Even though I might be the first point of contact on a particular issue, or I might have to give a speech on a particular thing, I am never doing that as me; I am always doing that with USG as my team,” Dunn said. “To know that you have the support of your team behind your back is pretty great. My biggest piece of advice is to rely on the amazing people around you.”
-                </div>
+                        “This first year course for all incoming freshman, spring admits, and transfer students will really create a culture of accountability, looking out for each other, and respect,” Monahan said. “And culture doesn’t happen in a vacuum. It’s going to be impacted by things that happen on campus.”
+                        <br>
+                        <br> Dunn said the shifting norms on campus were his and Monahan’s favorite development during their administration. He referred to the fall break resolution as an example of how this progress is manifesting.
+                        <br>
+                        <br> “If we had to sum up what we are most proud of, in one word, it would be culture,” Dunn said. “Just because these things we’re listing have to do with that. Fall break focused on destigmatizing mental health and supporting our students in times of crisis in weeks eight to ten.”
+                        <br>
+                        <br> In the aftermath of Christina Yokoyama’s termination as the former director of the Norman Topping Student Aid Fund, many USG officials and students questioned the ability of students to influence decisions made by the USC administration. Dunn acknowledged these concerns, and explained he has tried to address them by meeting with administrators more often.
+                        <br>
+                        <br> “In my entire time as vice president [during the 2016-2017 term], I only saw [Vice President for Student Affairs] Ainsley Carry three times,” Dunn said. “I now see him weekly, usually even more than once a week. I couldn’t ask to be better supported by the provost. In that realm, that is definitely something that we have made great strides in but that’s not to say that everything we say to the provost, Dr. Carry, or [President C.L. Max] Nikias is immediate policy.”
+                        <br>
+                        <br> When asked what advice she would offer to the current USG candidates, Monahan emphasized personal wellness and trying to preserve oneself.
+                        <br>
+                        <br> “Wellness is an important aspect of this and making sure that you fill up your own cup before you fill up others,” Monahan said. “And just make sure you are reaching out to as many people as possible, but doing it in a responsible manner for yourself.”
+                        <br>
+                        <br> Dunn added that candidates ought to remember what prompted them to join student government, and to stay true to those motives.
+                        <br>
+                        <br> “I think you have to stay true to your purpose and your why,” Dunn said. “Every student who’s running or who gets involved in student government has a reason for having done so. And I think that one thing that campaigns and the dirtiness of elections and the stress of life can often take away from staying at your core.”
+                        <br>
+                        <br> Dunn concluded by reminding the next USG president to seek assistance from all members of USG, and to work on every issue as a team, regardless of who receives the spotlight.
+                        <br>
+                        <br> “Even though I might be the first point of contact on a particular issue, or I might have to give a speech on a particular thing, I am never doing that as me; I am always doing that with USG as my team,” Dunn said. “To know that you have the support of your team behind your back is pretty great. My biggest piece of advice is to rely on the amazing people around you.”
+                    </div>
                 </section>
 
                 <!-- Footer -->
@@ -223,30 +242,30 @@
                         PRODUCED BY blah blah
                         <br>
                         <br> &copy; University of Southern California | Daily Trojan 2020. All rights reserved. | <a href="http://html5up.net">HTML5 UP</a></p>
-                </footer>
+                    </footer>
 
+                </div>
             </div>
-        </div>
 
-        <!-- Sidebar -->
-        <div id="sidebar">
-            <div class="inner">
-                <!-- Menu -->
-                <nav id="menu">
-                    <header class="major">
-                        <h2>Menu</h2>
-                    </header>
-                    <ul>
-                        <li><a href=#pres>Meet the Presidential Candidates</a></li>
-                        <li><a href=#sen>About The Senators</a></li>
-                        <li><a href=#endorse>Our Endorsement</a></li>
-                        <li><a href=#review>Year In Review</a></li>
-                        <li><a href=#sen>About The Senators</a></li>
-                        <li><a href=#endorse>Our Endorsement</a></li>
-                        <li><a href=#review>Year In Review</a></li>
-                        <li>
-                    </ul>
-                    </li>
+            <!-- Sidebar -->
+            <div id="sidebar">
+                <div class="inner">
+                    <!-- Menu -->
+                    <nav id="menu">
+                        <header class="major">
+                            <h2>Menu</h2>
+                        </header>
+                        <ul>
+                            <li><a href=#pres>Meet the Presidential Candidates</a></li>
+                            <li><a href=#sen>About The Senators</a></li>
+                            <li><a href=#endorse>Our Endorsement</a></li>
+                            <li><a href=#review>Year In Review</a></li>
+                            <li><a href=#sen>About The Senators</a></li>
+                            <li><a href=#endorse>Our Endorsement</a></li>
+                            <li><a href=#review>Year In Review</a></li>
+                            <li>
+                            </ul>
+                        </li>
                     </ul>
 
                 </nav>
