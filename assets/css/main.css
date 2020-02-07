@@ -4362,6 +4362,10 @@ accent: #00a9a9 ()
 			padding: 1em 0 1em 0 ;
 		}
 
+		#main > .inner > section .senateProfile {
+			padding: 2em 0 2em 0 ;
+		}
+
 	}
 
 	@media screen and (max-width: 1000px) {
