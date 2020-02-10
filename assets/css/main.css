@@ -6,12 +6,12 @@ accent: #00a9a9 ()
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 	.firstcharacter {
 	  color: #F1794E;
 	  float: left;
-	  font-family: 'Roboto', sans-serif;
+	  font-family: 'Oswald', sans-serif;
 	  font-weight: bold;
 	  font-size: 75px;
 	  line-height: 60px;
@@ -23,7 +23,7 @@ accent: #00a9a9 ()
 	.firstcharacterRed {
 	  color: #00a9a9;
 	  float: left;
-	  font-family: 'Roboto', sans-serif;;
+	  font-family: 'Oswald', sans-serif;;
 	  font-weight: bold;
 	  font-size: 75px;
 	  line-height: 60px;
@@ -38,7 +38,7 @@ accent: #00a9a9 ()
 	}
 
 	h1 {
-		font-family: 'Roboto', sans-serif;;
+		font-family: 'Oswald', sans-serif;;
 		font-weight: bold;
 	}
 
@@ -2167,7 +2167,7 @@ accent: #00a9a9 ()
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3d4449;
-		font-family: 'Roboto', sans-serif;, serif;
+		font-family: 'Oswald', sans-serif;, serif;
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -2196,7 +2196,7 @@ accent: #00a9a9 ()
 	}
 
 	h5 {
-		font-family: 'Roboto', sans-serif;;
+		font-family: 'Oswald', sans-serif;;
 		font-weight: lighter;
 		font-size: 0.9em;
 	}
@@ -4818,7 +4818,7 @@ accent: #00a9a9 ()
 	-ms-user-select: none;
 	user-select: none;
 	color: #3d4449;
-	font-family: 'Roboto', sans-serif;, serif;
+	font-family: 'Oswald', sans-serif;, serif;
 	font-family: 400;
 	letter-spacing: 0.075em;
 	list-style: none;
