@@ -2332,6 +2332,10 @@ accent: #00a9a9 ()
 		font-weight: lighter;
 	}
 
+	#pres-blurbs h2 {
+		font-size: 1.7em;
+	}
+
 	/* Senate Blurbs */
 	.senateProfile {
 		margin-left: 15%;
@@ -3119,7 +3123,7 @@ accent: #00a9a9 ()
 		border-bottom: solid 3px #F1794E;
 		display: inline-block;
 		margin: 0 0 2em 0;
-		padding: 0 0.75em 0.5em 0;
+		padding: 0 0.75em 0.1em 0;
 	}
 
 	header.main > :last-child {
