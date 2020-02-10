@@ -2324,7 +2324,14 @@ accent: #00a9a9 ()
 		transform: scale(1.075);
 	}
 
-	/* Blurbs */
+	/* Pres blurbs */
+
+	#pres-blurbs p {
+		/*font-size: 12.5px;*/
+		font-weight: lighter;
+	}
+
+	/* Senate Blurbs */
 	.senateProfile {
 		margin-left: 15%;
 		margin-right: 15%;
