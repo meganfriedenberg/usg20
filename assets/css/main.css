@@ -2315,6 +2315,15 @@ accent: #00a9a9 ()
 		font-weight: lighter;
 	}
 
+	/* Senate grid */
+
+	#sen .col-3:hover img {
+		-moz-transform: scale(1.075);
+		-webkit-transform: scale(1.075);
+		-ms-transform: scale(1.075);
+		transform: scale(1.075);
+	}
+
 	/* Blurbs */
 	.senateProfile {
 		margin-left: 15%;
