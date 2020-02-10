@@ -249,34 +249,6 @@
 
 					});
 
-		// Hover to gif
-		$(document).ready(function()
-{
-    $("#pres1").hover(
-        function()
-        {
-            $(this).attr("src", "img/test-motion.gif");
-        },
-        function()
-        {
-            $(this).attr("src", "img/test-static.gif");
-        }                         
-    );   
-
-      $("#pres2").hover(
-        function()
-        {
-            $(this).attr("src", "img/test-motion.gif");
-        },
-        function()
-        {
-            $(this).attr("src", "img/test-static.gif");
-        }                         
-    );                
-});
-
-
-
 		// Menu.
 			var $menu = $('#menu'),
 				$menu_openers = $menu.children('ul').find('.opener');

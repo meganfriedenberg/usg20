@@ -2317,7 +2317,7 @@ accent: #00a9a9 ()
 
 	/* Senate grid */
 
-	#sen .col-3:hover img {
+	#sen .col-4:hover img {
 		-moz-transform: scale(1.075);
 		-webkit-transform: scale(1.075);
 		-ms-transform: scale(1.075);
