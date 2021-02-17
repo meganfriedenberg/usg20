@@ -1,7 +1,8 @@
 /*
 colors: 
-main: #F1794E (orange)
+main: #d4ccc0 (beige)
 accent: #00a9a9 ()
+previous: #F1794E; (orange)
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
@@ -9,7 +10,7 @@ accent: #00a9a9 ()
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 	.firstcharacter {
-	  color: #F1794E;
+	  color: #d4ccc0;
 	  float: left;
 	  font-family: 'Oswald', sans-serif;
 	  font-weight: bold;
@@ -2139,13 +2140,13 @@ accent: #00a9a9 ()
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #F1794E;
+		color: #d4ccc0;
 		text-decoration: none;
 	}
 
 	a:hover {
-		border-bottom-color: #F1794E;
-		color: #F1794E !important;
+		border-bottom-color: #d4ccc0;
+		color: #d4ccc0 !important;
 	}
 
 	a:hover strong {
@@ -3120,7 +3121,7 @@ accent: #00a9a9 ()
 	}
 
 	header.major > :last-child {
-		border-bottom: solid 3px #F1794E;
+		border-bottom: solid 3px #d4ccc0;
 		display: inline-block;
 		margin: 0 0 2em 0;
 		padding: 0 0.75em 0.1em 0;
@@ -3187,8 +3188,8 @@ accent: #00a9a9 ()
 	input[type="url"]:focus,
 	select:focus,
 	textarea:focus {
-		border-color: #F1794E;
-		box-shadow: 0 0 0 1px #F1794E;
+		border-color: #d4ccc0;
+		box-shadow: 0 0 0 1px #d4ccc0;
 	}
 
 	.select-wrapper {
@@ -3301,8 +3302,8 @@ accent: #00a9a9 ()
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #F1794E;
-		box-shadow: 0 0 0 1px #F1794E;
+		border-color: #d4ccc0;
+		box-shadow: 0 0 0 1px #d4ccc0;
 	}
 
 	input[type="checkbox"] + label:before {
@@ -3556,7 +3557,7 @@ accent: #00a9a9 ()
 	}
 
 	ul.contact li:before {
-		color: #F1794E;
+		color: #d4ccc0;
 		display: inline-block;
 		font-size: 1.5em;
 		height: 1.125em;
@@ -3680,7 +3681,7 @@ accent: #00a9a9 ()
 	}
 
 	ul.pagination li > .page.active {
-		background-color: #F1794E;
+		background-color: #d4ccc0;
 		color: #ffffff !important;
 	}
 
@@ -3820,8 +3821,8 @@ accent: #00a9a9 ()
 		background-color: transparent;
 		border-radius: 0.375em;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #F1794E;
-		color: #F1794E !important;
+		box-shadow: inset 0 0 0 2px #d4ccc0;
+		color: #d4ccc0 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Roboto Slab", serif;
@@ -3894,7 +3895,7 @@ accent: #00a9a9 ()
 	input[type="button"].special,
 	button.special,
 	.button.special {
-		background-color: #F1794E;
+		background-color: #d4ccc0;
 		box-shadow: none;
 		color: #ffffff !important;
 	}
@@ -4017,7 +4018,7 @@ accent: #00a9a9 ()
 	}
 
 	.features article .icon:before {
-		color: #F1794E;
+		color: #d4ccc0;
 		font-size: 2.75rem;
 		position: relative;
 		top: 0.05em;
@@ -4634,7 +4635,7 @@ accent: #00a9a9 ()
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	border-bottom: solid 5px #F1794E;
+	border-bottom: solid 5px #d4ccc0;
 	padding: 6em 0 1em 0;
 	position: relative;
 }
@@ -4842,7 +4843,7 @@ accent: #00a9a9 ()
 }
 
 #menu ul a:hover, #menu ul span:hover {
-	color: #F1794E;
+	color: #d4ccc0;
 }
 
 #menu ul a.opener, #menu ul span.opener {
@@ -4876,7 +4877,7 @@ accent: #00a9a9 ()
 }
 
 #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-	color: #F1794E;
+	color: #d4ccc0;
 }
 
 #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
